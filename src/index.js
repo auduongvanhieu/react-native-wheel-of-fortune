@@ -13,7 +13,9 @@ import Svg, {G, Text, TSpan, Path, Pattern} from 'react-native-svg';
 
 const AnimatedSvg = Animated.createAnimatedComponent(Svg);
 
-const {width, height} = Dimensions.get('screen');
+// const {width, height} = Dimensions.get('screen');
+const width = Dimensions.get('screen').width/2;
+const height = Dimensions.get('screen').height;
 
 class WheelOfFortune extends Component {
   constructor(props) {
