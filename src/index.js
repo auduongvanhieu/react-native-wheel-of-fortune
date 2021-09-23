@@ -15,7 +15,7 @@ const AnimatedSvg = Animated.createAnimatedComponent(Svg);
 
 // const {width, height} = Dimensions.get('screen');
 const width = Dimensions.get('screen').width/2;
-const height = Dimensions.get('screen').height;
+const height = Dimensions.get('screen').height/2;
 
 class WheelOfFortune extends Component {
   constructor(props) {
