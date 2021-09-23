@@ -338,6 +338,7 @@ class WheelOfFortune extends Component {
     return (
       <View style={styles.container}>
         <TouchableOpacity
+          onPress={this.props.onPress}
           style={{
             position: 'absolute',
             width: width,
